@@ -8,11 +8,12 @@ Prueba Técnica: 02 - Desarrollo Full Stack de Bazar https://github.com/midudev/
 
 ![image](https://github.com/FreddyArreagaM/02-Bazar-Universal/assets/127709400/b8b1789a-918f-40a8-b5f0-cc4609a9bd7b)
 
-Debes crear una aplicación que consta de 3 componentes principales:
+Debes crear una aplicación que consta de **3 componentes principales**:
 
-Una caja de búsqueda
-La lista de resultados
-Descripción del detalle del producto
+- Una caja de búsqueda
+- La lista de resultados
+- Descripción del detalle del producto
+
 La aplicación debe constar de servidor y cliente. El servidor debe exponer un API RESTful y el cliente consumirlo.
 
 # Contexto
