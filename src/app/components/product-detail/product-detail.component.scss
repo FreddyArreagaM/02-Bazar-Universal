@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+    height: 100vh;
+}
+
+.input-group {
+    margin-left: 25px;
+}
+
+.d-flex{
+    padding: 0px 10px;
+}
+
+.scroll-container {
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+    max-height: 600px;
+}
+
+.information p{
+    font-size: 12px;
+}
+
+.img-contenedor {
+    width: 200px; /* Ancho del contenedor circular */
+    height: 200px; /* Altura del contenedor circular */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    border: 3px solid black;
+    overflow: hidden; /* Oculta cualquier contenido fuera del contenedor */
+}
+
+.img-contenedorSmall{
+    width: 60px; /* Ancho del contenedor circular */
+    height: 60px; /* Altura del contenedor circular */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    margin-top: 10px;
+    border: 3px solid black;
+    overflow: hidden; /* Oculta cualquier contenido fuera del contenedor */
+}
+
+.img-product {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Asegura que la imagen ocupe todo el alto del contenedor */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin forzar la relación de aspecto */
+    display: block; /* Elimina los márgenes adicionales en línea */
+}
+
+.img-productSmall {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Asegura que la imagen ocupe todo el alto del contenedor */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin forzar la relación de aspecto */
+    display: block; /* Elimina los márgenes adicionales en línea */
+}
+
+.star {
+    font-size: 23px;
+    color: #ccc;
+    cursor: pointer;
+}
+  
+.star.filled {
+    color: #ffc107; /* Color para estrellas llenas */
+}
+
+.star.partial-filled {
+    color: #ffc107; /* Color para estrellas parciales */
+}
+
+.description{
+    margin: 40px 20px;
+    font-size: 14px;
+}
+
+.button{
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.btn{
+    background-color: rgb(211, 165, 206);
+    border-radius: 25px 25px;
+    font-size: 24px;
+    width: 100%;
+    color:black;
+}

@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  
+  .container img {
+    width: 150px; /* Tamaño aumentado de la imagen */
+    height: 150px; /* Tamaño aumentado de la imagen */
+    margin-bottom: 15px;
+  }
+  
+  .container h2 {
+    color: black;
+    font-size: 24px; /* Tamaño aumentado del texto */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #input {
+    width: 80%;
+    max-width: 400px; /* Ancho máximo del input aumentado */
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    margin-top: 15px;
+  }
+  
+  .input-group input {
+    height: 50px;
+    padding: 10px; /* Aumenta el espacio interno del input */
+    background-color: rgb(215, 215, 215);
+  }
+  
+  .input-group-text {
+    cursor: pointer;
+  }
+
+  .btn{
+    width: 120px;
+    background-color: rgb(211, 165, 206);
+    border-radius: 25px 25px;
+    font-size: 16px;
+    color:black;
+  }
+  
+  /* Estilos adicionales para hacerlo responsive */
+  @media screen and (max-width: 768px) {
+    .container img {
+      width: 100px; /* Reduzca el tamaño de la imagen en dispositivos más pequeños si es necesario */
+      height: 100px; /* Reduzca el tamaño de la imagen en dispositivos más pequeños si es necesario */
+    }
+  
+    .container h2 {
+      font-size: 20px; /* Reduzca el tamaño del título en dispositivos más pequeños si es necesario */
+    }
+  
+    #input input {
+      padding: 8px; /* Reduzca el espacio interno del input en dispositivos más pequeños si es necesario */
+      font-size: 14px; /* Reduzca el tamaño del texto en el input en dispositivos más pequeños si es necesario */
+    }
+  }
+  
